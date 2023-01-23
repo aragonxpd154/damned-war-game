@@ -1,24 +1,23 @@
 <h1 align="center">
-<img alt="8 Bits Computer" src="https://raw.githubusercontent.com/aragonxpd154/8-bits-computer/main/GITREP/8-BITS-COMPUTER_LOGO.png"/>
+<img alt="damned-war-game" src="https://raw.githubusercontent.com/aragonxpd154/damned-war-game/main/icone/DAMNED%20WAR_free-file.png"/>
 <br>
 </h1>
 
 <h4 align="center">
 
-This is a small 8-bit computer that I'm developing with a bus and some basic peripherals, with little use in the current technological context, it's a more hobbyist and simplistic project like many projects that exist on the internet.
-No SoC's or microcontrollers, everything will be done like the old days without microcontrollers like Z80 or Atmega! The goal is to create a computer as abstract as possible, for educational purposes, however nothing prevents it from being used in production.
+In mid-2016, I started an in-depth study of the Blender 3D game development engine, version 2.77 was operating at the time and the software included new features with the cycles rendering engine, in light of this desire to develop new skills in oriented programming lines. three-dimensional objects and the sum of previous knowledge of panda3d, I started to develop the menu and a physics simulation of a jeep that would be used for academic purposes and personal studies. Unfortunately the BGE engine (blender 3d) is no longer available in the latest versions, however you can run the project by downloading a version prior to 2.77 from the Blender Foundation website. I leave this project available for study purposes and the script source code and the .blend file for posterity
 
 </h4>
 
 <p align="center">
-<img alt="Github top language" src="https://img.shields.io/github/languages/top/aragonxpd154/8-bits-computer">
-<img alt="Github laguage count" src="https://img.shields.io/github/languages/count/aragonxpd154/8-bits-computer">
-<img alt="Repository size" src="https://img.shields.io/github/repo-size/aragonxpd154/8-bits-computer">
-<img alt="Github last commit" src="https://img.shields.io/github/last-commit/aragonxpd154/8-bits-computer">
-<a href="https://github.com/aragonxpd154/8-bits-computer/issues">
-<img alt="Repository issues" src="https://img.shields.io/github/issues/aragonxpd154/8-bits-computer"> 
+<img alt="Github top language" src="https://img.shields.io/github/languages/top/aragonxpd154/damned-war-game">
+<img alt="Github laguage count" src="https://img.shields.io/github/languages/count/aragonxpd154/damned-war-game">
+<img alt="Repository size" src="https://img.shields.io/github/repo-size/aragonxpd154/damned-war-game">
+<img alt="Github last commit" src="https://img.shields.io/github/last-commit/aragonxpd154/damned-war-game">
+<a href="https://github.com/aragonxpd154/damned-war-game/issues">
+<img alt="Repository issues" src="https://img.shields.io/github/issues/aragonxpd154/damned-war-game"> 
 </a>
-<img alt="Github license" src="https://img.shields.io/github/license/aragonxpd154/8-bits-computer">
+<img alt="Github license" src="https://img.shields.io/github/license/aragonxpd154/damned-war-game">
 </a>
 </p>
 
