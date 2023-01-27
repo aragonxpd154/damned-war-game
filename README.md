@@ -51,50 +51,53 @@ To clone the current directory use the command:
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/aragonxpd154/8-bits-computer
+$ git clone https://github.com/aragonxpd154/damned-war-game
 ```
 
 ## ☕ Do It Yourself
 
-As soon as I finish all the branches of this project I will make available a final version of the package with a detailed description for you to be able to assemble your own 8bit computer. Only a pre-release version was available, with the passing of these months I should provide a more complete version.
+In the .~/source directory, you will find the .blend files in the source_blend folder which can be opened with Blender V2.77 or earlier.
+
+```bash
+INTRO.blend file, includes description animation
+MENU_INICIAL.blend file includes the original menu that accesses the guide.
+```
+
+The settings.py script found in the .~/source/script_py/settings.py directory includes all the data recorded in the menu and saved according to the readSettings and whiteSettings functions, below which the Settings.dat file is generated in the parent directory. For more information on the methods used, see the blender guide at this link.
+
+```bash
+from bge import logic
+
+fileName = "Settings.dat"
+
+def readSettings(cont):
+    own = cont.owner
+    with open(fileName) as reading:
+        data = [line.split()[0] for line in reading]
+        reading.close()
+
+    own["val"] = int(data[0])
+    own["bright"] = int(data[1])
+    own["playerName"] = data[2]
+    own["audio"] = int(data[3])
+
+def writeSettings(cont):
+    own = cont.owner
+    with open(fileName, 'w') as writing:
+        writing.write(str(own["val"])+"\n")
+        writing.write(str(own["bright"])+"\n")
+        writing.write(own["playerName"]+"\n")
+        writing.write(str(own["audio"]+"\n"))
+        writing.close()
+```
 
 ## 💻 Development Status
 
-The revision of all the directories of this project has already started, with each commit I will be providing a description of what was changed in each revision. The review process is below:
-
-- [ ] Reviewer ACC REGISTER
-- [ ] Reviewer ARITHMETIC LOGIC UNIT
-- [ ] Reviewer ASSEMBLY LAYOUT
-- [ ] Reviewer ASTABLE AND MONOSTABLE CLOCK CIRCUIT
-- [ ] Reviewer B REGISTER
-- [ ] Reviewer CONTROL DECODER
-- [ ] Reviewer DECIMAL DISPLAY
-- [ ] Reviewer FETCH EXECUTION COUNTER
-- [ ] Reviewer INSTRUCTION REGISTER
-- [ ] Reviewer OUTPUT REGISTER
-- [ ] Reviewer PROGRAM COUNTER
-- [ ] Reviewer RAM & MAR
-- [ ] Reviewer RESERT CIRCUIT
-
-Below are the tests of each board (PCB) after production. The review directory is [REHEARSAL](https://github.com/aragonxpd154/8-bits-computer/tree/main/~REHEARSAL~)
-
-- [ ] Reviewer ACC REGISTER
-- [ ] Reviewer ARITHMETIC LOGIC UNIT
-- [ ] Reviewer ASSEMBLY LAYOUT
-- [x] Reviewer ASTABLE AND MONOSTABLE CLOCK CIRCUIT
-- [ ] Reviewer B REGISTER
-- [ ] Reviewer CONTROL DECODER
-- [ ] Reviewer DECIMAL DISPLAY
-- [ ] Reviewer FETCH EXECUTION COUNTER
-- [ ] Reviewer INSTRUCTION REGISTER
-- [ ] Reviewer OUTPUT REGISTER
-- [ ] Reviewer PROGRAM COUNTER
-- [ ] Reviewer RAM & MAR
-- [ ] Reviewer RESERT CIRCUIT
+The project was to demonstrate the creation of a game menu model using only small snippets of code in python and logic from the blender game engine, an obsolete and discontinued suite of Blender3D.
 
 ## :memo: License
 
-This project is under the GPL v3.0 license. See the [LICENSE](https://github.com/aragonxpd154/8-bits-computer/blob/main/LICENSE) for more information.
+This project is under the GPL v3.0 license. See the [LICENSE](https://github.com/aragonxpd154/damned-war-game/blob/main/LICENSE) for more information.
 
 ---
 
