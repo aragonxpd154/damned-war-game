@@ -30,38 +30,20 @@ In mid-2016, I started an in-depth study of the Blender 3D game development engi
 </p>
 
 <p align="center">
-<img alt="Demo on Photo" src="https://i.imgur.com/ElBRN8j.png">
+<img alt="Demo on Photo" src="https://github.com/aragonxpd154/damned-war-game/blob/main/icone/apresentation.gif">
 </p>
 
 ## :rocket: Technologies
 
 This project is still in the development stage and using the following technologies
 
-- [Hexplorer](https://sourceforge.net/projects/hexplorer/files/)
+- [Blender3D](https://www.blender.org/)
 - [Visual Studio Code](https://code.visualstudio.com/)
-- [EasyEDA](https://easyeda.com/)
-- [LTspice](https://www.analog.com/en/design-center/design-tools-and-calculators/ltspice-simulator.html)
-- [KiCad](https://www.kicad.org/)
-- [MultisimLive](https://www.multisim.com/)
-- [CodeBlocks](https://www.codeblocks.org/)
+- [Python3.1 and Python2.9](https://www.python.org/)
 
 ## :information_source: How To Use
 
-This project directory contains a folder with its respective version (in a subfolder), the electronic schematic and the layout of the printed circuit board (PCB) and compiled code, which is specific to each function of the 8bit computer.
-
-Always check and/or use the highest numbered version or most recent modification described in the commit for example:
-
-Old version:
-
-```bash
-...directory...\1.0V
-```
-
-latest version:
-
-```bash
-...directory...\2.1V
-```
+This project was carried out using the Blender 3D software and its internal suite of functionality specific to the BGE (Blender Game Engine), to open this project it is necessary to install version 2.77 or earlier, this [link](https://download.blender.org/release/) you will find all the repositories with compilations and binaries of Blender 3D.
 
 To clone and download all project directories you can use [Git](https://git-scm.com), or any other specific program.
 
