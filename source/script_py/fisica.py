@@ -1,3 +1,5 @@
+#Esse código cria um carro com física simulada na engine Blender Game Engine (BGE), utilizando o módulo de PhysicsConstraints. Ele importa os módulos "bge" e "PhysicsConstraints", define as propriedades dos objetos-rodas (nome, posição, angulo, raio, direção, altura da suspensão) e cria uma constraint de carro no objeto da cena. Em seguida, as rodas são adicionadas ao carro. As propriedades da suspensão, a influência de rolamento e a rigidez da suspensão são ajustadas.
+
 # importando os modules
 from bge import logic as g
 import PhysicsConstraints as pc

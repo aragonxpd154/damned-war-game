@@ -1,3 +1,4 @@
+# Este código controla o comportamento de um objeto "carro" em um jogo usando o Blender Game Engine (BGE). O objeto carro tem física aplicada e está conectado ao controlador do objeto. O código lê eventos do teclado (W, A, S, D, Espaço) e define valores para variáveis de aceleração, direção e freio. Em seguida, ele aplica forças de aceleração e direção nas rodas e freios ao objeto "carro".
 # importando os modules
 from bge import logic as g, events
 

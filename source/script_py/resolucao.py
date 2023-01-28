@@ -1,3 +1,5 @@
+#Este código é um script em Python para o Blender Game Engine que define uma lista de resoluções de tela e atribui o valor da resolução atual a uma propriedade do objeto propriétario (own). O valor da propriedade é então usado para definir a resolução da janela de renderização da tela. O script também inclui uma função que desabilita o modo de tela cheia.
+
 from bge import render, logic
 
 cont = logic.getCurrentController()
