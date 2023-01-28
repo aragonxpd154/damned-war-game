@@ -63,7 +63,9 @@ INTRO.blend file, includes description animation
 MENU_INICIAL.blend file includes the original menu that accesses the guide.
 ```
 
-The settings.py script found in the .~/source/script_py/settings.py directory includes all the data recorded in the menu and saved according to the readSettings and whiteSettings functions, below which the Settings.dat file is generated in the parent directory. For more information on the methods used, see the blender guide at this link.
+O script settings.py encontrado no diretório .~/source/script_py/settings.py inclui todos os dados registrados no menu.
+
+It reads and writes game settings from a "Settings.dat" file. The "readSettings" function reads the settings from the file and stores them in properties of the "owner" object. The "writeSettings" function writes the "owner" object's settings back to the file.
 
 ```bash
 from bge import logic
