@@ -159,7 +159,7 @@ mouse = logic.mouse
 own.worldPosition = [mouse.position[0]*(own["amtx"]),mouse.position[1]*(own["amty"]),own.worldPosition.z]
 ```
 
-This code is written in Python and uses the "Blender Game Engine (BGE)" game library. The code takes the current controller of the "own" object and loads the dialog file specified in the variable "dialogFile1" this file is found in ~/DATA/DATA/direct.1. Then the file is read and the content is stored in the "dialog" variable. At each iteration, the value of the "count" variable is incremented by 1, and the displayed text is trimmed to the size of the "count" variable. Thus, the text of the dialog is displayed little by little with each iteration.
+The code takes the current controller of the "own" object and loads the dialog file specified in the variable "dialogFile1" this file is found in ~/DATA/DATA/direct.1. Then the file is read and the content is stored in the "dialog" variable. At each iteration, the value of the "count" variable is incremented by 1, and the displayed text is trimmed to the size of the "count" variable. Thus, the text of the dialog is displayed little by little with each iteration.
 
 ```bash
 from bge import logic
